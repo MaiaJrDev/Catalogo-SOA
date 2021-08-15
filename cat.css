@@ -1,0 +1,48 @@
+
+ body{
+   background-image: url("img/fundo.jpg");
+ }
+
+ .quadrado{
+   background-color: black;
+   border: solid 4px;
+   border-image: linear-gradient(135deg, black 0%, #FF00A8 100%) 1;
+   opacity: 0.9;
+   margin: 100px 500px 100px; 
+   height: 800px; 
+   padding: 5px 0;
+   text-align: center;
+   font-size: 10px; 
+ }
+ 
+ .txt1{
+   text-align: center;
+ }
+
+ #main{
+   font-size: 20px;
+   text-align: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ input#n{
+   block-size: 30px;
+   font-size: 15px;
+ }
+.box{
+    padding: 20px;
+    display: inline-block;
+}
+img{
+    border-radius: 50%;
+    border: solid 4px gray;
+}
+h1{
+  color: azure;
+}
+figcaption{
+  color: white;
+}
+.desc{
+  color: white;
+  font-size: 20px;
+}
